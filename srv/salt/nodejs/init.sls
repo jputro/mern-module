@@ -1,6 +1,3 @@
-git:
-  pkg.installed
-
 nodejs:
   pkg.installed
   
