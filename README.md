@@ -1,7 +1,7 @@
 # mern-module
 install mern-stack with salt
 
-#Usage:
+# Usage:
 Boot a Xubuntu Live USB.
 
 Open a terminal with Windows-T.
