@@ -4,6 +4,6 @@ git:
 nodejs:
   pkg.installed
   
- /usr/bin/node:
+/usr/bin/node:
    file.symlink:
      - target: /usr/bin/nodejs
