@@ -6,7 +6,7 @@ list_file:
   cmd.run:
     - name: echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 
-mongodb-org:
+mongodb_pkg:
   pkg.latest:
     - pkgs:
       - mongodb-org
