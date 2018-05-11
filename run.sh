@@ -9,7 +9,7 @@ echo "Retrieving and Applying Settings"
 echo 'master: localhost'|sudo tee /etc/salt/minion
 git clone https://github.com/jputro/mern-module
 cd mern-module/
-./highstate.sh
+bash highstate.sh
 
 echo "Configuring Live Desktop"
 setxkbmap fi
