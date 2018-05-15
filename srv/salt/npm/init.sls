@@ -3,7 +3,7 @@ npm:
 
 mern-cli:
   - source: salt://npm/npm.sh
-    cmd.run:
+    - cmd.run:
       - name: bash npm.sh
         
 brac_repo:
