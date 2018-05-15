@@ -2,8 +2,8 @@ npm:
   pkg.installed
 
 mern-cli:
-  source: salt://npm/npm.sh
-    - cmd.run:
+  - source: salt://npm/npm.sh
+    cmd.run:
       - name: bash npm.sh
         
 brac_repo:
