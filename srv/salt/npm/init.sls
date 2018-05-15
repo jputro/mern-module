@@ -1,8 +1,8 @@
 npm:
   pkg.installed
 
-mern-module/srv/salt/npm/:
-  - cmd.run:
+mern-module/srv/salt/npm/npm.sh:
+  cmd.run:
     - name: bash npm.sh
     
 brac_repo:
