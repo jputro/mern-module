@@ -2,3 +2,4 @@ base:
   '*':
     - nodejs
     - mongodb
+    - npm
