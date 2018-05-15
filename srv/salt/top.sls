@@ -3,4 +3,4 @@ base:
     - nodejs
     - mongodb
     - npm
-    -brackets
+    - brackets
