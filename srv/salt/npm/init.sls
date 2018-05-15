@@ -2,7 +2,7 @@ npm:
   pkg.installed
 
 mern-cli:
-  - source: salt://npm/npm.sh
+  source: salt://npm/npm.sh
   cmd.run:
     - name: bash npm.sh
         
