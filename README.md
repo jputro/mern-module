@@ -9,10 +9,14 @@ Open a terminal with Windows-T.
 	wget https://raw.githubusercontent.com/jputro/mern-module/master/run.sh
 	bash run.sh
 
-# Notice!
-This is still a work in process. After doing bash run.sh you have to give following commands:
+If you want to use Brackets, just type in the terminal:
+
+	brackets
+
+To activate the MERN-stack you need to run two commands:
 
 	cd dev
 	npm start
 
+It takes a while for npm to start but after that you can go to localhost:8000 and should see the starting page!
 
