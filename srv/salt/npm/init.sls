@@ -9,7 +9,7 @@ brac_repo:
   cmd.run:
     - name: sudo add-apt-repository ppa:webupd8team/brackets
 
-update:
+update_pkg:
   cmd.run:
     - name: sudo apt-get update
 
