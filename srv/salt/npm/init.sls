@@ -3,7 +3,7 @@ npm:
 
 mern-cli:
   cmd.run:
-    - name: mern-module/srv/salt/npm/npm.sh
+    - name: bash mern-module/srv/salt/npm/npm.sh
         
 brac_repo:
   cmd.run:
