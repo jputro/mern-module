@@ -2,10 +2,10 @@ npm:
   pkg.installed
 
 mern-cli:
+  - source: salt://npm/npm.sh
   cmd.run:
     - name: bash npm.sh
-    - source: salt://npm/npm.sh
-    
+        
 brac_repo:
   cmd.run:
     - name: sudo add-apt-repository ppa:webupd8team/brackets
