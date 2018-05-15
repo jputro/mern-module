@@ -1,10 +1,10 @@
 npm:
   pkg.installed
 
-mern-module/srv/salt/npm/:
+mern-cli:
   cmd.run:
     - name: bash npm.sh
-    - source: mern-module/srv/salt/npm/npm.sh
+      - source: mern-module/srv/salt/npm/npm.sh
     
 brac_repo:
   cmd.run:
