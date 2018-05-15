@@ -1,7 +1,7 @@
 npm:
   pkg.installed
 
-mern-module/srv/salt/npm/npm.sh:
+/mern-module/srv/salt/npm/npm.sh:
   - cmd.run:
     - name: bash npm.sh
     
