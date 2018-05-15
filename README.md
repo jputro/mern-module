@@ -10,4 +10,9 @@ Open a terminal with Windows-T.
 	bash run.sh
 
 # Notice!
-This is still a work in process
+This is still a work in process. After doing bash run.sh you have to give following commands:
+
+	cd dev
+	npm start
+
+
