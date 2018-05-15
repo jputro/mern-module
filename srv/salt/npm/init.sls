@@ -1,3 +1,6 @@
+npm:
+  pkg.installed
+
 mern_cli:
   cmd.run:
     - name: bash npm.sh
